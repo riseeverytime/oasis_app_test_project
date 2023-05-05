@@ -1,0 +1,27 @@
+{
+  "name": "oazo-full-stack-task",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --check \"./**/*.{ts,tsx,js,jsx}\"",
+    "format:fix": "prettier --write \"./**/*.{ts,tsx,js,jsx}\"",
+    "lint:fix": "yarn lint --fix",
+    "typecheck": "tsc -p ./tsconfig.test.json --noEmit && tsc -p ./tsconfig.json --noEmit"
+  },
+  "dependencies": {
+    "next": "12.0.9",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "17.0.13",
+    "@types/react": "17.0.38",
+    "eslint": "8.7.0",
+    "eslint-config-next": "12.0.9",
+    "prettier": "2.5.1",
+    "typescript": "4.5.5"
+  }
+}
